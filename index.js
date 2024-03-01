@@ -7,7 +7,7 @@ const feettoinc=hfeet*12
 let add=feettoinc+Number(inches)
 let meterconversan=add*0.0254
 let metersquare=meterconversan*meterconversan
-let finalBMI=weight/metersquare
+let finalBMI=int(weight/metersquare)
 
 
 button.addEventListener('click',function(){
